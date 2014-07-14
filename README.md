@@ -155,6 +155,8 @@ Phew! You made it.  Now to the lab.
 
 ##Instructions  
 
+  1.  Make a new project Located in the same directory as this README
+  2.  
 ##Resources 
 
 - [Android Developer Docs](http://developer.android.com/guide/topics/manifest/manifest-intro.html)
