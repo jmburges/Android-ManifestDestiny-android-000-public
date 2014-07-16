@@ -156,7 +156,47 @@ Phew! You made it.  Now to the lab.
 ##Instructions  
 
   1.  Make a new project Located in the same directory as this README
-  2.  
+  
+  2.  Change your projects default theme to `android:Theme.Translucent` "using" the projects Manifest.  Note: the quotes are there because you won't actually change any XML code directly in the manifest file.  **Hint** Hover over the android:theme value in the manifest XML, press command+b, and Android studio will open the source file that defines the defined style.  
+  
+  3.  Add a new Activity to your project called ManifestDestinyActivity.java.  Make sure to create your activity by using the new -> Java Class template and not the Activity Template.   
+  
+  4.  In your Manifest, add an Activity element for your new Activity.  Make sure that the activity is configured to be the main launch Activity for your application.  You should read the entire documentation for [Intents and Filters](http://developer.android.com/guide/components/intents-filters.html), but for now this snippet is a great example of how to designate an Activity as the Main launch activity for your app.  
+  
+  ```xml
+    <activity android:name="MainActivity">
+    <!-- This activity is the main entry, should appear in app launcher -->
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+  ```
+  5. Our App is nearly ready to launch.  The last step is to add some code to our `ManifestDestinyActivty` that will inflate our User Interface XML.   
+  
+  ``java
+
+  package com.flatironschool.manifestdestiny;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+
+public class ManifestDestinyActivity extends Activity {
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        setContentView(R.layout.activity_manifestdestiny);
+
+    }
+}
+
+  ```
+
 ##Resources 
 
 - [Android Developer Docs](http://developer.android.com/guide/topics/manifest/manifest-intro.html)
+- [Intents and Intent Filters](http://developer.android.com/guide/components/intents-filters.html)
