@@ -193,8 +193,7 @@ public class ManifestDestinyActivity extends Activity {
 
     }
 }
-
-  ```
+```
 
 ##Resources 
 
