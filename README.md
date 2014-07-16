@@ -174,7 +174,7 @@ Phew! You made it.  Now to the lab.
   ```
   5. Our App is nearly ready to launch.  The last step is to add some code to our `ManifestDestinyActivty` that will inflate our User Interface XML.   
   
-  ``java
+```java
 
   package com.flatironschool.manifestdestiny;
 
