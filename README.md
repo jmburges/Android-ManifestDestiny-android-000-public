@@ -60,7 +60,7 @@ CAN CONTAIN:
 <uses-sdk>
 
 ```
-Esentially the Docs are telling us that the Manifest application must contain an inner element `application` and can contain a host of other elements.  Great so let's create the necessary XML to satisfy that requirement.   
+Esentially the Docs are telling us that the Manifest element must contain an inner element `application` and can contain a host of other elements.  Great so let's create the necessary XML to satisfy that requirement.   
 
 ```xml 
 <manifest>
