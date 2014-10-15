@@ -6,7 +6,7 @@
 Android-ManifestDestiny
 =======================
 
-![Manifest Definition](http://imgur.com/bthRyee)
+![Imgur](http://i.imgur.com/bthRyee.png)
 
 The Android Manifest is the lifeblood of any Android Application.  It tells the Android System (AKA your device) all of the vital information necessary for interacting with your application.  Take some time and read the documentation for the Android Manifest linked in the resources section.  A number of the items in the manifest will be necessary for Advanced functionality that we'll cover later in the course, so for now let's disect a fairly barebones Android Manifest.  
 
